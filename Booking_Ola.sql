@@ -1,6 +1,6 @@
 SELECT * FROM ola.bookings_ola;
 
-#question1 : retrieve all successful bookings
+#q1 : retrieve all successful bookings
 
 CREATE VIEW Successful_booking as
 SELECT * FROM ola.bookings_ola
@@ -9,7 +9,7 @@ WHERE Booking_Status='success';
 select * from Successful_booking;
 
 
-#question 2 : select avg ride dist of each vehicle type
+#q2 : select avg ride dist of each vehicle type
 
 create view avg_dist_per_vehicle as
 select distinct vehicle_type , avg(Ride_Distance)
