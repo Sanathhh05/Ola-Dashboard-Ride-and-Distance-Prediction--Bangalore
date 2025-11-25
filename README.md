@@ -1,54 +1,192 @@
-# Ola-Dashboard-Project--Bangalore-Location
-The Ola Dashboard is a data-driven analytical solution designed to provide actionable insights into ride-hailing operations within Bangalore. The project leverages Excel (CSV) datasets, MySQL, and Power BI to transform raw ride data into an interactive, visually engaging, and business-focused dashboard.
+🚕 Ola Dashboard & ML Prediction System – Bangalore Location
 
-📊 Ola Dashboard – Bangalore Location
+The Ola Dashboard & Ride Prediction System is a complete end-to-end data analytics and machine-learning solution designed to provide deep insights into ride-hailing operations within Bangalore. The project combines Excel (CSV) datasets, MySQL, Power BI, Machine Learning, Streamlit, and Flask to transform raw operational data into an interactive analytics dashboard and a smart prediction tool.
+
 📌 Overview
 
-The Ola Dashboard is a data analytics and visualization project built using MySQL, Power BI, and Excel (CSV) datasets to analyze ride-hailing data from Bangalore.
-It provides key insights into overall performance, vehicle type distribution, revenue generation, cancellations, and customer ratings.
+This project goes beyond traditional BI dashboards by integrating data preprocessing, statistical analysis, business intelligence, and machine learning predictions.
 
-The dashboard transforms raw CSV data into actionable insights for decision-making, enabling business intelligence for Ola’s operations.
+The solution includes:
+
+✔️ A detailed Power BI dashboard
+
+For analyzing ride performance, revenue, cancellations, ratings, and demand zones.
+
+✔️ A Machine Learning Prediction System
+
+Using a Random Forest Regressor, the model predicts:
+
+Ride Distance
+
+Booking Value (Fare Amount)
+
+based on:
+
+Pickup location
+
+Drop location
+
+Vehicle type
+
+A Streamlit frontend and Flask backend API provide a user-friendly interface for entering inputs and viewing predictions in real time.
 
 ⚙️ Tech Stack
+📄 Excel (CSV Dataset)
 
-Excel (CSV Dataset) – Raw ride data (trips, fares, ratings, locations, etc.)
+Raw ride data — trips, fares, ratings, pickup/drop locations, vehicle types, etc.
 
-MySQL – Data storage, preprocessing, and querying
+🗄️ MySQL
 
-Power BI – Visualization and dashboard creation
+Data import
+
+Cleaning
+
+Preprocessing
+
+Query-based insights
+
+📊 Power BI
+
+Visualization
+
+KPI dashboards
+
+Interactive filters
+
+Insight reporting
+
+🤖 Machine Learning
+
+Random Forest Regressor
+
+Advanced preprocessing
+
+Feature engineering for location-to-location prediction
+
+Model evaluation & tuning
+
+🌐 Streamlit (Frontend)
+
+Clean UI for prediction
+
+Input fields for pickup, drop, vehicle type
+
+Real-time ML result display
+
+🧩 Flask (Backend)
+
+API endpoint for prediction
+
+ML model and pipeline hosting
+
+Integration with Streamlit
 
 🔑 Features
+📈 Overall Performance
 
-Overall Performance – Key KPIs like total rides, revenue, and active users.
+Total rides
 
-Vehicle Type Analysis – Breakdown of rides by Sedan, Prime SUV, Prime Plus, Mini, Auto, Bike, and E-Bike.
+Total revenue
 
-Revenue Insights – Revenue contribution by vehicle type, demand zones, and time periods.
+Active users
 
-Cancellation Trends – Analysis of cancellation rates by drivers and customers.
+Average ride duration
 
-Customer Ratings – Average rating trends across different ride types.
+🚗 Vehicle Type Analysis
+
+Insights on ride distribution across:
+Sedan, Prime SUV, Prime Plus, Mini, Auto, Bike, E-Bike.
+
+💰 Revenue Insights
+
+Revenue by vehicle category
+
+Time-based trends
+
+High-demand zones
+
+❌ Cancellation Trends
+
+Customer-initiated vs driver-initiated
+
+Peak cancellation time slots
+
+⭐ Customer Ratings
+
+Ratings by ride type
+
+Driver performance metrics
+
+🔮 ML-Powered Ride Prediction System (Newly Added)
+
+Predict ride distance
+
+Predict booking value (fare)
+
+Works using pickup, drop location, and vehicle type
+
+Helps simulate price estimates before booking
 
 🖼️ Dashboard Preview
 
-Below is a sample view of the Ola Dashboard (Bangalore):
+(Insert dashboard image here)
+
+🚀 Improvements in the Updated Version
+✔️ Cleaned & Preprocessed Dataset
+
+Outlier removal
+
+Missing value treatment
+
+Location mapping
+
+Feature encoding
+
+Normalization where required
+
+✔️ Built Random Forest Regressor for Predictions
+
+Trained using optimized hyperparameters
+
+Achieves high accuracy for distance & price prediction
+
+✔️ Developed a Full ML Web Application
+
+Streamlit UI for user input
+
+Flask backend serving prediction API
+
+Real-time results with clean UX
+
+This transforms the project from a static dashboard into a fully interactive analytics + ML prediction platform.
 
 📊 Business Impact
 
-Identify high-demand zones and optimize driver allocation.
+Identify high-demand areas and optimize driver placement.
 
-Improve customer satisfaction by tracking ratings and cancellations.
+Reduce cancellations by analyzing behavior trends.
 
-Monitor driver performance for rewards and training.
+Improve revenue forecasting using the ML prediction system.
 
-Enable data-driven strategy for growth in Bangalore.
+Enhance customer satisfaction using rating insights.
 
-🚀 How to Use
+Provide approximate fare/distance predictions before booking.
 
-Import the provided CSV dataset into MySQL.
+🛠️ How to Use
+1. Import Data into MySQL
 
-Run SQL scripts for cleaning and extracting insights.
+Load the CSV files and run cleaning SQL scripts.
 
-Connect MySQL with Power BI for visualization.
+2. Visualize in Power BI
 
-Interact with filters (date, time, vehicle type, location) for custom insights.
+Connect MySQL → Build/refresh dashboard → Interact with filters.
+
+3. Run the ML Prediction App
+
+Train the Flask Model (use the below command):
+python train_model.py
+
+Run Streamlit frontend (use the below command):
+streamlit run ola_app.py
+
+Enter pickup, drop, vehicle type → get predictions instantly
