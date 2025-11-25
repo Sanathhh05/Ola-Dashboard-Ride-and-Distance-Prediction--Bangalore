@@ -194,6 +194,12 @@ streamlit run ola_app.py
 Enter pickup, drop, vehicle type → get predictions instantly
 <img width="958" height="863" alt="Screenshot 2025-11-25 123804" src="https://github.com/user-attachments/assets/e370659d-456a-4ca1-95d1-0fe63c9a7a3e" />
 
+Dashboard's Screenshots
 <img width="1275" height="719" alt="Screenshot 2025-11-25 124139" src="https://github.com/user-attachments/assets/30ea1b36-28a9-40a3-a20b-401e28090339" />
 <img width="1274" height="712" alt="Screenshot 2025-11-25 124557" src="https://github.com/user-attachments/assets/aaaafe54-8ec8-4233-a05d-3a6dcbe81d1b" />
+<img width="1278" height="717" alt="Screenshot 2025-11-25 124322" src="https://github.com/user-attachments/assets/8fdbf652-510e-4e70-8af0-1cf2cd3af6dc" />
+<img width="1276" height="718" alt="Screenshot 2025-11-25 124346" src="https://github.com/user-attachments/assets/82120b6c-a66d-46a5-963f-889486d9652a" />
+<img width="1276" height="716" alt="Screenshot 2025-11-25 124519" src="https://github.com/user-attachments/assets/5efcdd2b-5aae-4ad6-a82e-fbea6b505df1" />
+
+
 
