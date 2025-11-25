@@ -183,10 +183,13 @@ Connect MySQL → Build/refresh dashboard → Interact with filters.
 
 3. Run the ML Prediction App
 
-Train the Flask Model (use the below command):
+🚀Train the Flask Model (use the below command):
+
 python train_model.py
 
-Run Streamlit frontend (use the below command):
+🚀Run Streamlit frontend (use the below command):
+
 streamlit run ola_app.py
 
 Enter pickup, drop, vehicle type → get predictions instantly
+<img width="958" height="863" alt="Screenshot 2025-11-25 123804" src="https://github.com/user-attachments/assets/e370659d-456a-4ca1-95d1-0fe63c9a7a3e" />
